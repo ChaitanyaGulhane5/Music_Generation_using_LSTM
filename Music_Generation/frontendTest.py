@@ -1,0 +1,10 @@
+import tkinter as tk
+root = tk.Tk()
+root.geometry("720x480")
+lstmButton = tk.Button(root, text="RNN-LSTM" , width=20, height=10)
+lstmButton.pack()
+lstmButton.place(x=180,y=60)
+bbnButton = tk.Button(root, text="BBN", width=20, height=10)
+bbnButton.pack()
+bbnButton.place(x=360,y=60)
+tk.mainloop()
